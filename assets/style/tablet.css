@@ -1,0 +1,232 @@
+/*----------------------------------------------FORMAT PAYSAGE--------------------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /*-----------------------PARTIE ABOUT ME--------------------------*/
+    div.page-about {
+        background-color: #E1E2E7;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh;
+        width: 100%;
+    }
+
+    div.box {
+        height: 50%;
+        width: 50%;
+        margin-left: 25%;
+        background-color: black;
+        color: white;
+    }
+
+    p.text-box {
+        font-size: 15px;
+    }
+
+    span.title-box {
+        text-decoration: underline;
+    }
+
+    img.image {
+        display: block;
+        height: 10%;
+        width: 10%;
+    }
+
+
+
+
+    /*-----------------------PARTIE FORMULAIRE--------------------------*/
+    div.page-contact {
+        background-image: url(../images/form.png);
+        height: 100vh;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+
+    input[type=text],
+    select,
+    textarea {
+        width: 80%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: 20px;
+    }
+
+    .form_text {
+        margin-left: 30%;
+        font-family: 'Poiret One', cursive;
+        color: black;
+        font-size: 15px;
+    }
+
+    #subject {
+        height: 180px;
+    }
+
+    h2 {
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: 'Poiret One', cursive;
+        letter-spacing: 2px;
+    }
+
+    label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+    }
+
+    input[type=submit] {
+        background-color: #375D81;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: none;
+        margin-left: 50%;
+    }
+
+    input[type=submit]:hover {
+        background-color: transparent;
+        color: black;
+        border: 1px solid black;
+    }
+
+    #page_form {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding-top: 30px;
+        opacity: 0.8;
+        margin-left: 20%;
+        height: 60%;
+        width: 60%;
+    }
+
+    .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+    }
+
+    .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+}
+
+
+
+/*----------------------------------------------FORMAT PORTRAIT--------------------------*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /*-----------------------PARTIE FORMULAIRE--------------------------*/
+    div.page-contact {
+        background-image: url(../images/form.png);
+        height: 100vh;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+
+    input[type=text],
+    select,
+    textarea {
+        width: 80%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: 20px;
+    }
+
+    .form_text {
+        margin-left: 30%;
+        font-family: 'Poiret One', cursive;
+        color: black;
+        font-size: 15px;
+    }
+
+    #subject {
+        height: 200px;
+    }
+
+    h2 {
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: 'Poiret One', cursive;
+        letter-spacing: 2px;
+    }
+
+    label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+    }
+
+    input[type=submit] {
+        background-color: #375D81;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: none;
+        margin-left: 50%;
+    }
+
+    input[type=submit]:hover {
+        background-color: transparent;
+        color: black;
+        border: 1px solid black;
+    }
+
+    #page_form {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding-top: 30px;
+        opacity: 0.8;
+        margin-left: 20%;
+        height: 30%;
+        width: 60%;
+    }
+
+    .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+    }
+
+    .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Site Web CV -- Jérémy Escobar étudiant Ingésupp</title>
+  <!--LINK REL-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+  <link rel="stylesheet" href="assets/style/style.css">
+  <link rel="stylesheet" href="assets/style/mobile.css">
+  <link rel="stylesheet" href="assets/style/tablet.css">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/assets/images/logo1.png" />
+  <link rel="canonical" href="http://jeremy-escobar.webou.net/" />
+
+
+
+  <!--META SEO-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="content-language" content="fr-FR" />
+  <meta name="description" content="Site web CV comportant toutes les informations personneles et professionnnel de jérémy Escobar" />
+  <meta property="og:title" content="CV personnel Jérémy escobar" />
+  <meta name="google-site-verification" content="0ViTd4qOD6Q3xJ_zB4cGa3bfETouSkvaZk7OJ5cs-xY" />
+</head>
+
+<body>
+  <!--------------------------------NAVBAR--------------------------------->
+  <div class="page-home">
+    <nav class="navbar is-primary">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">CV</a>
+          <span class="navbar-burger burger" data-target="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navMenu" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="#" class="navbar-item has-background-danger">Home</a>
+            <a href="#about" class="navbar-item">About</a>
+            <a href="#skills" class="navbar-item">Skills</a>
+            <a href="#projet" class="navbar-item">Project</a>
+            <a href="#contact" class="navbar-item">Contact</a>
+            <a href="login.php" class="navbar-item">Espace membre</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <div id="about" class="page-about">
+    <br><br>
+    <h1 class="title-principal">A propos de moi</h1>
+    <br>
+    <div class="box">
+      <article class="media">
+        <div class="media-left">
+          <figure class="image is-64x64">
+            <img src="assets/images/jeremy.jpg" alt="Image">
+          </figure>
+        </div>
+        <div class="media-content">
+          <div class="content">
+            <p class="text-box"><span class="title-box">Jérémy Escobar</span>
+              <br><br>
+              Je m'appele Jérémy, j'ai 18 ans et je suis en première année de Bachelor informatique au campus Ynov de
+              Toulouse.
+              Je suis passioné par les nouvelles technologies. <br> Le domaine dans lequelle je suis le plus performant
+              est le réseau. <br>
+              Mes passions sont : le foot, la musique, les nouvelles technologies, fan d'apple et de leurs conférences
+              (ex: WWDC 2019)
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <nav class="level is-mobile">
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">Stages</p>
+          <p class="title">1</p>
+        </div>
+      </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">Jobs</p>
+          <p class="title">3</p>
+        </div>
+      </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">Projets</p>
+          <p class="title">0</p>
+        </div>
+      </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">Recherche stage</p>
+          <p class="title">Actif</p>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="skills" class="page-skills">
+    <br><br><br>
+    <h1 class="title-principal">Mes compétences</h1>
+    <br><br>
+
+    <!----------------CARROUSSEL---------------->
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="assets/images/html.png" alt="logo-html" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="/assets/images/css.png" alt="logo-css" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="/assets/images/word.png" alt="logo-word" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="/assets/images/c.png" alt="logo-word" style="width:100%">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div class="skill-bar">
+      <p class="skill-text">Word, Excel, Power-point -> 95%</p>
+      <progress class="progress is-danger" value="95" max="100"></progress>
+
+      <p class="skill-text">HTML -> 75%</p>
+      <progress class="progress is-sucess" value="65" max="100"></progress>
+
+      <p class="skill-text">CSS -> 75%</p>
+      <progress class="progress is-primary" value="65" max="100"></progress>
+    </div>
+  </div>
+
+
+
+
+
+  <div id="projet" class="page-project">
+    <br><br>
+    <h1 class="title-principal">Mon portefolio</h1>
+  </div>
+
+
+
+
+
+
+  <div id="contact" class="page-contact">
+    <br><br><br><br><br><br><br>
+    
+    <div class="container" id="page_form">
+      <form action="formulaire.php" method="POST">
+        <h2>Formulaire de contact</h2>
+        <br>
+
+
+        <div class="row">
+          <div class="col-25">
+            <label class="form_text" for="fname">Pseudo</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="name" placeholder="....">
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-25">
+            <label class="form_text" for="lname">Objet</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="object" placeholder="...">
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-25">
+            <label class="form_text" for="sujet">Sujet</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="message" placeholder="Message..."></textarea>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <div id="footer">
+    <p>© 2018 ESCOBAR Jérémy - Conditions d'utilisations</p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+
+  <script type="text/javascript">
+    (function () {
+      var burger = document.querySelector('.burger');
+      var nav = document.querySelector('#' + burger.dataset.target);
+      burger.addEventListener('click', function () {
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+      });
+    })();
+
+
+    /*-----CARROUSSEL------*/
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {
+        slideIndex = 1
+      }
+      if (n < 1) {
+        slideIndex = slides.length
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+
+    //autre chose
+
+  </script>
+
+
+</body>
+
+</html>

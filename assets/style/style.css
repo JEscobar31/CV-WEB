@@ -1,0 +1,376 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+/*----------------------------------------------------*/
+.navbar.is-primary {
+    background-color: rgb(0, 0, 0);
+}
+
+a.navbar-item:hover {
+    color: #9A94BC;
+    font-weight:bold;
+}
+
+a.navbar-item{
+    font-weight:bold;
+}
+
+/*----------------------------------------------------*/
+div.page-home {
+    background-image: url(../images/home.jpg);
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/*----------------------------------------------------*/
+div.page-about {
+    background-color: #E1E2E7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+div.box {
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    background-color: black;
+    color: white;
+}
+
+h1.title-principal {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: #AFB1BD;
+    letter-spacing: 2px;
+}
+
+span.title-box {
+    text-decoration: underline;
+}
+
+img.image {
+    display: block;
+    height: 10%;
+    width: 10%;
+}
+
+/*----------------------------------------------------*/
+div.page-about2{
+    background-color: #F0F8FF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200h;
+    width: 100%;
+}
+
+div.parcours-scolaire{
+    padding-right: 20px;
+}
+
+/*----------------------------------------------------*/
+div.page-skills {
+    background-image: url(../images/skills5.jpg);
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+div.skill-bar{
+    margin-left:30%;
+}
+.progress{
+    width:60%;
+}
+
+p.skill-text{
+    color:white;
+}
+
+/*------CARROUSEL--------*/
+.slideshow-container {
+    max-width: 20%;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+div.container-skills {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #E1E2E7;
+}
+
+div.container-skills .box-skills {
+    width: 25%;
+    float: left;
+}
+
+div.container-skills div.box-skills {
+    width: 25%;
+    float: left;
+}
+
+div.container-skills div.box-skills div.chart {
+    width: 100px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.chart {
+    color: white;
+}
+
+/*----------------------------------------------------*/
+div.page-project{
+    background-color: #E1E2E7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+/*----------------------------------------------------*/
+div.page-contact {
+    background-image: url(../images/form.png);
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+input[type=text],
+select,
+textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.form_text{
+    margin-left: 30%;
+    font-family: 'Poiret One', cursive;
+    color:black;
+    font-size:15px;
+}
+
+#subject{
+    height:200px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 2px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #375D81;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: none;
+    margin-left: 50%;
+}
+
+input[type=submit]:hover {
+    background-color: transparent;
+    color:black;
+    border: 1px solid black;
+}
+
+#page_form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    opacity: 0.8;
+    margin-left: 30%;
+    height: 60%;
+    width: 60%;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*---------------------FOOTER CONTACT-------------------------------*/
+
+
+.footer-text { 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100vh;
+    float: right;
+    
+    padding: 20px;
+    background-color: white;
+    color: black;
+  }
+
+
+/*-------------STYLE DE LA PAGE: scroll bar----------------*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #424242;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #00d1b2;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #00d1b2;
+}
+
+/*-----------BUTTOM GO TOP----------------*/
+.float-button{
+    @extend .button;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+   }
+  
+  .float-button.ng-hide-add {
+      -webkit-animation: fadeOutUp 0.4s;
+      -moz-animation: fadeOutUp 0.4s;
+      animation: fadeOutUp 0.4s;
+      visibility: visible;
+  }
+  
+  .float-button.ng-hide-remove {
+      animation: fadeInDown 0.4s;
+      -moz-animation: fadeInDown 0.4s;
+      -webkit-animation: fadeInDown 0.4s;
+  }
